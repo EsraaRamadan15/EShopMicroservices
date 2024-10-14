@@ -6,15 +6,12 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{FC47E903-CD0E-4D5A-A14C-80353D44D4DC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{57D6D9E6-1111-4792-92E4-E80BB10151AA}"
-	ProjectSection(SolutionItems) = preProject
-		BulidingBlocks\BulidingBlocks\CQRS\IQuery.cs = BulidingBlocks\BulidingBlocks\CQRS\IQuery.cs
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{DA3D2CD2-4BDD-42DB-9497-3B89C9A9312A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{E7CD7E13-5D25-483C-AF5C-E7C9594890BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulidingBlocks", "BulidingBlocks\BulidingBlocks\BulidingBlocks.csproj", "{91A55EAA-4E7C-4DFD-A188-5F06BEABB409}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BulidingBlocks", "BulidingBlocks\BulidingBlocks\BulidingBlocks.csproj", "{91A55EAA-4E7C-4DFD-A188-5F06BEABB409}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

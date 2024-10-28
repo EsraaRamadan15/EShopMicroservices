@@ -13,7 +13,7 @@ namespace Catalog.API.Products.CreateProduct
 
             var product = new Product
             {
-                Cateogry = command.Category,
+                Category = command.Category,
                 Description = command.Description,
                 ImageFile = command.ImageFile,
                 Price = command.Price,

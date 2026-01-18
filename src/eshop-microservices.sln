@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.9.34728.123
+# Visual Studio Version 18
+VisualStudioVersion = 18.1.11312.151
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{FC47E903-CD0E-4D5A-A14C-80353D44D4DC}"
 EndProject
@@ -34,6 +34,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Infrastructure", "Services\Ordering\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{7BBDF811-F36B-410F-B557-2CFBA1A84231}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks.Messaging", "BulidingBlocks\BuildingBlocks.Messaging\BuildingBlocks.Messaging.csproj", "{2751953B-F498-47AC-A64C-7448BDFA7102}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateways", "ApiGateways", "{CBFA056E-BC4D-4CB5-8105-9F0AF0438F1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YarpApiGateway", "ApiGateways\YarpApiGateway\YarpApiGateway.csproj", "{CD1E3997-CB61-55DC-2713-83D96C1016DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,10 @@ Global
 		{2751953B-F498-47AC-A64C-7448BDFA7102}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2751953B-F498-47AC-A64C-7448BDFA7102}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2751953B-F498-47AC-A64C-7448BDFA7102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD1E3997-CB61-55DC-2713-83D96C1016DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD1E3997-CB61-55DC-2713-83D96C1016DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD1E3997-CB61-55DC-2713-83D96C1016DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD1E3997-CB61-55DC-2713-83D96C1016DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +107,7 @@ Global
 		{73B404D5-D767-462F-BC09-72C9C43DA20F} = {E9B1E196-AB7C-469D-B104-C27DF635CD69}
 		{7BBDF811-F36B-410F-B557-2CFBA1A84231} = {E9B1E196-AB7C-469D-B104-C27DF635CD69}
 		{2751953B-F498-47AC-A64C-7448BDFA7102} = {E7CD7E13-5D25-483C-AF5C-E7C9594890BE}
+		{CD1E3997-CB61-55DC-2713-83D96C1016DB} = {CBFA056E-BC4D-4CB5-8105-9F0AF0438F1B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0D8C059C-6A48-48C6-BFF8-F185F32FB886}

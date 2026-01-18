@@ -29,10 +29,24 @@ services:
       context: .
       dockerfile: Services/Discount/DiscountGrpc/Dockerfile
 
+  ordering.api:
+    image: ${DOCKER_REGISTRY-}orderingapi
+    build:
+      context: .
+      dockerfile: Services/Ordering/Ordering.API/Dockerfile
+
+  yarpapigateway:
+    image: ${DOCKER_REGISTRY-}yarpapigateway
+    build:
+      context: ApiGateways/YarpApiGateway
+      dockerfile: Dockerfile
+
 volumes:
    postgres_catalog:   
    postgres_basket:  
   
+
+
 
 
 

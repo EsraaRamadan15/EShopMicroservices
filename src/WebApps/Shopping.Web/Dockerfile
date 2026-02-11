@@ -12,10 +12,10 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["WebApps/Shopping.Web/Shopping.Web.csproj", "WebApps/Shopping.Web/"]
-RUN dotnet restore "./WebApps/Shopping.Web/Shopping.Web.csproj"
+COPY ["Shopping.Web.csproj", "."]
+RUN dotnet restore "./Shopping.Web.csproj"
 COPY . .
-WORKDIR "/src/WebApps/Shopping.Web"
+WORKDIR "/src/."
 RUN dotnet build "./Shopping.Web.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 # This stage is used to publish the service project to be copied to the final stage
